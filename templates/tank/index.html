@@ -1,0 +1,12 @@
+{% extends 'tank/base.html' %}
+
+{% block body_block %}
+    {% load static %}
+    <h1>Langtank</h1>
+    {% if user.is_authenticated %}
+        <h1>Hello {{ user.username }}!</h1>
+    {% else %}
+        <h1>Hello visitor!</h1>
+    {% endif %}
+    <img src="{% static "languages.png" %}" alt="languages picture"><br>
+{% endblock %}

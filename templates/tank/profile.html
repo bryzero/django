@@ -1,0 +1,8 @@
+{% extends 'tank/base.html' %}
+
+{% block body_block %}
+    <h3>{{ user.username }}'s profile</h3>
+    <a href="/tank/edit_profile/">Edit profile</a><br>
+    Profile picture:<br><img src="/media/{{ user.userprofile.picture }}"><br>
+    Website: {{ user.userprofile.website }}
+{% endblock %}
