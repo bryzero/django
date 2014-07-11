@@ -1,0 +1,24 @@
+these are notes for the basic layout of the website.
+
+front page:
+    login form, registration form, langtank description,
+    website translations
+profile page:
+    username, user picture, languages speaking,
+    languages learning, friends, country, last login,
+    url has user's id, generate people who are online for 
+    your learning languages
+other profiles:
+    profile page, message user, is user online?,
+    chat with user
+search page:
+    search for friends by language, by country, by name,
+    display most recently logged on
+chat app:
+    has shortcuts for highlighting and putting old text 
+    in your new message, short for adding highlighted sentence 
+    to SRS, automatic translation option
+settings page:
+    srs configuration(format of your SRS cards: L1 to L2,
+    L2 to L1, both, etc)
+
